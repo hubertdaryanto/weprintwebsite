@@ -1,0 +1,52 @@
+.login-form{
+	padding:1.5%;
+}
+
+h2{
+	margin-bottom: 0.5em;
+    line-height: 1.2;
+    font-weight: normal;
+    margin-top: 0px
+}
+
+.login-form span {
+    display: block;
+    font-size: 0.8125em;
+    color: #757575;
+    padding-bottom: 5px;
+}
+
+form div{
+	padding: 5px 0;
+}
+
+.login-form input[type="text"], input[type="password"]{
+    padding: 8px;
+    display: block;
+    width: 98%;
+    background: none;
+    border: 1px solid #CACACA;
+    outline: none;
+    color: #464646;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-appearance: none;
+ }
+
+ .login-form input[type="submit"], input[type="button"]{
+	font-size: 0.9em;
+    padding: 10px 15px;
+    background: #CD1F25;
+    color: #FFF;
+    text-decoration: none;
+    outline: 0;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+ .login-form input[type="submit"], input[type="button"]:hover{
+	  text-shadow: 0px 0px 1px #000;
+	  background:#292929;
+}
